@@ -51,7 +51,38 @@ body{
 .entete__soustitre {
     color: #B4B4B4;
 }
-
+.carte {
+    display: flex;
+    background: white;
+    border: 2px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.carte__icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #E5EFF5;
+    margin-right: 20px;
+}
+.carte__icone img {
+    width: 50px;
+}
+.carte__contenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carte__titre {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.carte__description {
+    color: #B4B4B4;
+}
 
 
 
