@@ -4,11 +4,25 @@
 }
 .menu {
     display: flex;
+    justify-content: space-between;
     padding: 40px 20px;
-    border: 1px solid #EFEFEE;
+    border-bottom: 2px solid #EFEFEE;
     color: #9E999C;
 }
 .logo {
+    display: flex;
+}
+.logo__logo {
     width: 50px;
     margin-right: 16px;
+}
+.profil {
+    display: flex;
+    border-left: 2px solid #EFEFEE;
+    margin-left: 20px;
+}
+.profil__avatar {
+    width: 50px;
+    margin-right: 16px;
+    border-radius: 50%;
 }
