@@ -12,12 +12,12 @@ body{
     display: flex;
     justify-content: space-between;
     background: white;
-    padding: 20px 40px;
     border-bottom: 2px solid #EFEFEE;
     color: #9E999C;
 }
 .logo {
     display: flex;
+    padding: 20px 40px;
 }
 .logo__logo {
     width: 50px;
@@ -25,10 +25,17 @@ body{
 }
 .profil {
     display: flex;
+    padding: 20px 40px;
     border-left: 2px solid #EFEFEE;
     padding-left: 20px;
 }
 .profil__avatar {
+    position: relative;
+    width: 50px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+.profil__avatar img {
     width: 50px;
     margin-right: 16px;
     border-radius: 50%;
@@ -86,6 +93,19 @@ body{
 }
 .carte__icone2 {
     background: #FEE0DF;
+}
+.profil__notif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background: #026AD1;
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: -8px;
 }
 
 
