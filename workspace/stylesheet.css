@@ -24,6 +24,7 @@ body{
     margin-right: 16px;
 }
 .profil {
+    position: relative;
     display: flex;
     padding: 20px 40px;
     border-left: 2px solid #EFEFEE;
@@ -34,6 +35,9 @@ body{
     width: 50px;
     margin-right: 16px;
     border-radius: 50%;
+    padding: 0;
+    border: 0;
+    background: none;
 }
 .profil__avatar img {
     width: 50px;
@@ -41,6 +45,7 @@ body{
     border-radius: 50%;
 }
 .container {
+    position: relative;
     max-width: 800px;
     margin: auto;
     padding-left: 20px;
@@ -106,6 +111,24 @@ body{
     right: 0px;
     bottom: -8px;
 }
+.menuderoulant {
+    display: none;
+}
+.menuderoulant--ouvert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #EFEFEE;
+    background: white;
+    color: #9E999C;
+    position: absolute;
+    top:100%;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+}
+
 @media (max-width: 640px) {
     .menu {
     display: flex;
@@ -132,6 +155,7 @@ body{
         text-align: center;
     }
 }
+@media
 
 
 

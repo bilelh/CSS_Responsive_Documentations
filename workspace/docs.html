@@ -14,17 +14,18 @@
             <p classe="logo__titre">Mes Ressources Documentaires</p>
         </div>
         <div class="profil">
-            <div class="profil__avatar">
+            <button type="button" class="profil__avatar">
                 <img  src="../assets/avatar.jpg" alt="">
                 <div class="profil__notif">3</div>
-            </div>
+            </button>
             
             <p classe="profil__nom">Marie Thompson</p>
+            <div class="menuderoulant">Vous avez 3 nouveau message</div>
         </div>
     </div>
     <div class="container">
         <div class="entete">
-            <div class="entete__titre">Ressources HTML et CSS</div>
+            <div class="entete__titre">Ressources HTML &amp; CSS</div>
             <div class="entete__soustitre">Tout pour savoir faire de belles pages web</div>
         </div>
         
@@ -47,5 +48,13 @@
             </div>
         </div>
     </div>
+    <script>
+        var avaterElement = document.querySelector('.profil__avatar');
+        var messagesElement = document.querySelector('.menuderoulant');
+        avaterElement.addEventListener('click', function() {
+           messagesElement.classList.toggle('menuderoulant--ouvert') 
+        });
+        
+    </script>
 </body>    
 </html> 
