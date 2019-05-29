@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    background: #FBF8FB;
+}
+.menu {
+    display: flex;
+    padding: 40px 20px;
+    border: 1px solid #EFEFEE;
+    color: #9E999C;
+}
+.logo {
+    width: 50px;
+    margin-right: 16px;
+}
