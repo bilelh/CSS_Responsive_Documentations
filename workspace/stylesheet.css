@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
 * {
     box-sizing: border-box;
+}
+body{
     background: #FBF8FB;
+    font-family: 'Asap', sans-serif;
+    color: #292728
 }
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 40px 20px;
+    background: white;
+    padding: 20px 40px;
     border-bottom: 2px solid #EFEFEE;
     color: #9E999C;
 }
@@ -26,3 +33,36 @@
     margin-right: 16px;
     border-radius: 50%;
 }
+.container {
+    max-width: 800px;
+    /*text-align: center;*/
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.entete {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.entete__titre {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.entete__soustitre {
+    color: #B4B4B4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
